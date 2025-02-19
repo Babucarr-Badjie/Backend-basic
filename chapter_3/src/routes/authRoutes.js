@@ -34,13 +34,21 @@ router.post("/register", (req, res) => {
       { expiresIn: "24h" }
     );
     res.json({ token });
-    
   } catch (err) {
     console.log(err.message);
     res.sendStatus(503);
   }
 });
 
-router.post("/login", (req, res) => {});
+router.post("/login", (req, res) => {
+  const { username, password } = req.body;
+
+  try {
+    
+  } catch (err) {
+    console.log(err.message);
+    res.sendStatus(503);
+  }
+});
 
 export default router;
