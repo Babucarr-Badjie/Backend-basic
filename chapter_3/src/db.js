@@ -22,4 +22,4 @@ db.exec(`
     )`);
 
 export default db;
-console.log("Database connected");
+// console.log("Database connected");
