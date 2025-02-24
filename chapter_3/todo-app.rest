@@ -22,13 +22,11 @@ Content-Type: application/json
 
 ### Fetch all todos GET /TODOS
 GET http://localhost:5000/todos
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDA3NTIxLCJleHAiOjE3NDA0OTM5MjF9.PfIjzSyEUXJdnhM6Br0ZRWnMnxkR0oowkRSgF6ojr4s
-
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDE3MDQxLCJleHAiOjE3NDA1MDM0NDF9.dN_mPBZ1sjjnHjqqMunlKKyvvVU8iILjRHrODJ1ZPHU
 
 ###Creates a new todos POST /TODOS
 POST http://localhost:5000/todos
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDA3NTIxLCJleHAiOjE3NDA0OTM5MjF9.PfIjzSyEUXJdnhM6Br0ZRWnMnxkR0oowkRSgF6ojr4s
-Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDE3MDQxLCJleHAiOjE3NDA1MDM0NDF9.dN_mPBZ1sjjnHjqqMunlKKyvvVU8iILjRHrODJ1ZPHU
 
 {
     "task": "Finish coding the projects"
