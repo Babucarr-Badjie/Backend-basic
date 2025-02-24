@@ -19,3 +19,17 @@ Content-Type: application/json
     "username": "babucarr@gmail.com",
     "password": "123123123"
 }
+
+### Fetch all todos GET /TODOS
+GET http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDA3NTIxLCJleHAiOjE3NDA0OTM5MjF9.PfIjzSyEUXJdnhM6Br0ZRWnMnxkR0oowkRSgF6ojr4s
+
+
+###Creates a new todos POST /TODOS
+POST http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDA3NTIxLCJleHAiOjE3NDA0OTM5MjF9.PfIjzSyEUXJdnhM6Br0ZRWnMnxkR0oowkRSgF6ojr4s
+Content-Type: application/json
+
+{
+    "task": "Finish coding the projects"
+}
