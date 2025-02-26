@@ -31,3 +31,9 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwNDE3
 {
     "task": "Finish coding the projects"
 }
+
+### Update a todo PUT /TODOS/:ID
+PUT http://localhost:5000/todos/2
+Authorization: 
+
+Content-Type: application/json
