@@ -26,6 +26,7 @@ router.post("/register", (req, res) => {
     );
 
     insertTodo.run(result.lastInsertRowid, defaultTodo);
+    const bax = res.send("hello");
 
     // create a token
     const token = jwt.sign(
